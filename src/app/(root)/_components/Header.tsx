@@ -19,7 +19,7 @@ async function Header() {
     userId: user?.id || "",
   })
 
-  console.log({ convexUser });
+  // console.log({ convexUser });
 
   return (
     <div className="relative z-10">
